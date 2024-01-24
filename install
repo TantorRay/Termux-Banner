@@ -1,0 +1,18 @@
+clear
+echo " jdjdni"
+
+
+apt update
+apt upgrade
+apt install python
+apt install nano -y
+pip install lolcat
+
+mv .bashrc /data/data/com.termux/files/home
+
+cd
+clear 
+
+bash .bashrc
+
+cd
